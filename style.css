@@ -1,0 +1,28 @@
+body, html{
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0px;
+}
+.nav a{
+  color: rgba(255, 255, 255, 0.788);
+  padding-left: 2vmin;
+}
+.nav{
+    display:flex;
+    background-color: #82A8BA;
+    margin-left: 0;
+    height: 8vh;
+    font-size: 3vmin;
+    justify-content: flex-end;
+    align-items: center;
+  }
+.column{
+    display:flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+.pics > div:hover{
+    opacity: 0.3;
+}
